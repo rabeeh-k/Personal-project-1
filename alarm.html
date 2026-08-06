@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Alarm Clock</title>
+
+<link rel="stylesheet" href="alarm.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<button id="modeBtn">🌙</button>
+
+<div class="container">
+
+<h1>⏰ Alarm Clock</h1>
+
+<div id="clock">
+00:00:00
+</div>
+
+<div class="setAlarm">
+
+<input type="time" id="alarmTime">
+
+<button id="setAlarm">
+Set Alarm
+</button>
+
+</div>
+
+<h2>Your Alarms</h2>
+
+<ul id="alarmList">
+
+</ul>
+
+</div>
+
+<audio id="alarmSound" src="alarm.mp3"></audio>
+
+<script src="alarm.js"></script>
+
+</body>
+</html>
